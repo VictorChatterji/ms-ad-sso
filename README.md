@@ -1,4 +1,4 @@
-# Project Name
+# SSO Implementation using microsoft AD
 
 > Python application with Microsoft Active Directory Single Sign-On (SSO) integration
 
