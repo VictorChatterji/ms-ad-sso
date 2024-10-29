@@ -34,10 +34,10 @@ Before you start, make sure you have the following:
 ### Installation
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
-   ```
+```bash
+git clone https://github.com/yourusername/yourproject.git
+cd yourproject
+```
 2. **Install Required Python Packages:**
 Make sure you have a requirements.txt file listing all dependencies for your project.
 
@@ -59,8 +59,8 @@ pip install -r requirements.txt
 
 Create an .env file in the root of the project to store environment variables used for Azure AD SSO. Your .env file should contain the following:
 
-```
 # Azure AD Configurations
+```bash
 CLIENT_ID=<your-client-id>
 CLIENT_SECRET=<your-client-secret>
 TENANT_ID=<your-tenant-id>
@@ -91,13 +91,14 @@ Visit `http://localhost:5000` in your browser.
 8. **Click Sign in with Microsoft to initiate SSO.**
 
 ## Troubleshooting
-*Invalid Client ID/Secret:*  Ensure your CLIENT_ID and CLIENT_SECRET in the .env file match the Azure AD registration.
-Redirect URI Mismatch: The REDIRECT_URI in Azure AD must match the one specified in your app.
-*Permissions Issues:* Make sure the API permissions are correctly configured and admin consent is granted.
+- *Invalid Client ID/Secret:*  Ensure your CLIENT_ID and CLIENT_SECRET in the .env file match the Azure AD registration.
+
+- *Redirect URI Mismatch:* The REDIRECT_URI in Azure AD must match the one specified in your app.
+
+- *Permissions Issues:* Make sure the API permissions are correctly configured and admin consent is granted.
 
 ## Contributing
 Feel free to open issues or submit pull requests to improve the SSO implementation or documentation.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
