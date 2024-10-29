@@ -1,0 +1,116 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Logs and system files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+.DS_Store
+Thumbs.db
+*.pid
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test artifacts and coverage files
+.coverage
+.tox/
+.nox/
+*.coverage
+.cache/
+pytest_cache/
+htmlcov/
+coverage.xml
+
+# PyInstaller
+# Usually these files are written by a Python script from pyinstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.cache
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Microsoft AD/SSO specific (caching & credentials)
+auth_cache.json
+aad_b2c.json
+aad_b2c_auth.pyc
+*.secret
+
+# Encrypted secrets and sensitive config files
+*.pem
+*.key
+*.crt
+*.der
+*.cer
+
+# IDE specific
+.idea/
+.idea/workspace.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/assetWizardSettings.xml
+
+# Local database files
+*.sqlite3
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other editors or OS
+.vs/
+.envrc
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Environment variables (like when using dotenv for AD configuration)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
